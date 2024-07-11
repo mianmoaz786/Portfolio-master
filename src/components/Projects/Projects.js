@@ -43,8 +43,8 @@ function Projects() {
               imgPath={portfolioImg}
               title="Personal portfolio "
               description="A personal portfolio website showcasing my projects, skills, and experience. The portfolio is built using React, CSS, and JavaScript, and features a responsive design that looks great on both desktop and mobile devices."
-              ghLink="/"
-              demoLink="/" // Optional
+              ghLink="https://github.com/mianmoaz786/Portfolio-master"
+              demoLink="https://moaz-portfolio-personal.netlify.app/" // Optional
             />
           </Col>
         </Row>
