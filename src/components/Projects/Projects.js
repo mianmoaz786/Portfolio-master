@@ -3,8 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import textUtilsImg from "../../Assets/textutils.jpg"; // Ensure this image is correctly placed in the Assets folder
-import responsiveImg from "../../Assets/responsive.jpg"; // Ensure this image is correctly placed in the Assets folder
-import portfolioImg from "../../Assets/home-main.svg"; // Ensure this image is correctly placed in the Assets folder
+import inkomokoImg from "../../Assets/inkomoko.PNG"; // Ensure this image is correctly placed in the Assets folder
+import plixiImg from "../../Assets/plixi.png"; // Ensure this image is correctly placed in the Assets folder
 
 function Projects() {
   return (
@@ -14,7 +14,7 @@ function Projects() {
         <h1 className="project-heading">
           My Recent <strong className="purple">Works </strong>
         </h1>
-        <p style={{ color: "white" }}>
+         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
@@ -30,21 +30,22 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={responsiveImg}
-              title="Responsive Template"
-              description="A responsive web template designed to adapt to various screen sizes and devices. It features a clean and modern design, built using HTML, CSS, and JavaScript. The template includes various sections such as a homepage, about page, services, portfolio, and contact form. "
-              ghLink="https://github.com/mianmoaz786/mianmoaz786.github.io"
-              demoLink="https://mianmoaz786.github.io/" // Optional
+              imgPath={inkomokoImg}
+              title="InkoMoko"
+              description="The Inko-Moko Dashboard UI Template is a modern, responsive dashboard built with HTML, CSS,and JavaScript. It features a sleek, intuitive layout, customizable components, and interactiveelements like dynamic charts. "
+              ghLink="https://github.com/mianmoaz786/inko-moko"
+              demoLink="https://inko-moko-ui-template.netlify.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={portfolioImg}
-              title="Personal portfolio "
-              description="A personal portfolio website showcasing my projects, skills, and experience. The portfolio is built using React, CSS, and JavaScript, and features a responsive design that looks great on both desktop and mobile devices."
-              ghLink="https://github.com/mianmoaz786/Portfolio-master"
-              demoLink="https://moaz-portfolio-personal.netlify.app/" // Optional
+              imgPath={plixiImg}
+              title="Plixi "
+              description="The Plixi Website Clone is a fully responsive replica of the original Plixi website It accurately mirrors the design, layout, and interactive elements of the original site, showcasing
+expertise in front-end development and attention to detail."
+              ghLink="https://github.com/mianmoaz786/Plixi"
+              demoLink="https://plixi-template.netlify.app/" // Optional
             />
           </Col>
         </Row>
